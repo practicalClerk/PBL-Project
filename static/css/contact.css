@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ff5722;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+.contact-info {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+    color: #ff5722;
+}
+
+.contact-details p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact-details a {
+    text-decoration: none;
+    color: #ff5722;
+    font-weight: bold;
+}
+
+.contact-details a:hover {
+    color: #ff5722;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    color: #ff5722;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #ff5722;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.back-button {
+    background-color: #f8f9fa;
+    color: #000;
+    border: 2px solid #000;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+.back-button:hover {
+    background-color: #000; 
+    color: #fff;
+    border: 2px solid #fff;
+}
