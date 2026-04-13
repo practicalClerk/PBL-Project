@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ff5722;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ff5722;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    background: #e8f0ff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.cta input {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    font-size: 16px;
+}
+
+.cta button {
+    background: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.cta button:hover {
+    background: #ff5722;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.back-button {
+    background-color: #f8f9fa; 
+    color: #000; 
+    border: 2px solid #000;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+.back-button:hover {
+    background-color: #000;
+    color: #fff; 
+    border: 2px solid #fff;
+}
